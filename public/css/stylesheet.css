@@ -1,3 +1,119 @@
 .header {
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+  z-index: 1;
+  background-color: #BCC2FF;
+  text-align: center;
+  height: auto;
+}
+
+.name {
+  display: inline-block;
+  margin: .1em;
+  margin-left: 8.5%;
+}
+
+.header-link {
+  text-decoration: none;
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.navigation-links {
+  display: none;
+  float: right;
+}
+
+.link-button {
+  float: right;
+  margin-top: .5em;
+  margin-right: 5%;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.bio {
+  margin-top: 3em;
+}
+
+.bio-title {
+  position: relative;
+  float: center;
+}
+
+.bio-pic {
+  position: relative;
+  opacity: .5;
+  width: 100%;
+}
+
+.bio-blurb {
+  position: relative;
+  float: center;
+}
+
+.cv {
+  background-color: #ABC1E8;
+  width: 100%;
+  height: auto;
+}
+
+.cv-blurb {
+  display: inline-block;
+  float: left;
+  width: 45%;
+  margin-top: 15%;
+  font-size: 2em;
+  margin-left: 5%;
+}
+
+.cv-pic {
+  display: inline-block;
+  width: 40%;
+  margin: 4% 4% 4% 4%;
+}
+
+.cv-link {
+  margin-top: -5%;
+  float: left;  
+  text-decoration: none;
+  margin-left: 5%;
+  font-size: 2em;
+}
+
+.philosophy {
+  background-color: #BCC2FF;
+  width: 100%;
+  height: auto;
+}
+
+.philosophy-pic {
+  display: inline-block;
+  width: 32%;
+  margin: 2%;
+}
+
+.philosophy-links {
+  display: inline-block;
+  float: right;
+  width: 60%;
+}
+
+.philosophy-blurb {
+  display: inline-block;
+  float: right;
+  width: 55%;
+  margin-top: 10%;
+  font-size: 2em;
+  margin-right: 5%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
 }
