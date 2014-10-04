@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 0;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -7,6 +11,7 @@
   background-color: #BCC2FF;
   text-align: center;
   height: auto;
+  margin-bottom: 0;
 }
 
 .name {
@@ -38,12 +43,17 @@
 }
 
 .bio {
-  margin-top: 3em;
+  background-image: url('pics/family.jpeg');
+  background-size: cover;
+  height: auto;
 }
 
 .bio-title {
+  margin-top: 1em;
+  padding-top: 1em;
   position: relative;
   float: center;
+  color: #C9EAFF;
 }
 
 .bio-pic {
@@ -53,12 +63,16 @@
 }
 
 .bio-blurb {
+  padding: 25% 10% 15% 10%;
+  text-align: justify;
   position: relative;
   float: center;
+  font-size: 2em;
+  color: #C9EAFF;
 }
 
 .cv {
-  background-color: #ABC1E8;
+  background-color: #C9EAFF;
   width: 100%;
   height: auto;
 }
@@ -86,10 +100,21 @@
   font-size: 2em;
 }
 
+.writing {
+  width: 100%;
+}
+
+.writing-pic {
+  position: relative;
+  opacity: .5;
+  width: 100%;
+}
+
 .philosophy {
-  background-color: #BCC2FF;
+  background-color: #C9EAFF;
   width: 100%;
   height: auto;
+  margin-bottom: 0;
 }
 
 .philosophy-pic {
@@ -101,7 +126,13 @@
 .philosophy-links {
   display: inline-block;
   float: right;
-  width: 60%;
+  width: 50%;
+  margin-right: 25%;
+  margin-top: 1em; 
+}
+
+.philosophy-links a {
+  text-decoration: none;
 }
 
 .philosophy-blurb {
@@ -114,6 +145,10 @@
 }
 
 .footer {
-  position: fixed;
+  position: relative;
+  margin-top: 0;
   bottom: 0;
+  background-color: #BCC2FF;
+  width: 100%;
+  padding: .5em;
 }
