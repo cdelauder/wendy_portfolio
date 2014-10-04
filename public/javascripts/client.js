@@ -2,7 +2,7 @@ $(document).ready(bindListeners)
 
 function bindListeners () {
   $('.link-button').on('mouseover', showNavigation)
-  $('.link-button').on('mouseout', hideNavigation)
+  $('.navigation-links').on('mouseout', hideNavigation)
 }
 
 function showNavigation () {

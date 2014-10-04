@@ -1,5 +1,6 @@
 body {
   margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 .header {
@@ -75,15 +76,17 @@ body {
   background-color: #C9EAFF;
   width: 100%;
   height: auto;
+  padding-top: 1em;
 }
 
 .cv-blurb {
   display: inline-block;
   float: left;
   width: 45%;
-  margin-top: 15%;
+  margin-top: 10%;
   font-size: 2em;
   margin-left: 5%;
+  text-align: justify;
 }
 
 .cv-pic {
@@ -93,15 +96,33 @@ body {
 }
 
 .cv-link {
-  margin-top: -5%;
   float: left;  
+  display: inline-block;
   text-decoration: none;
-  margin-left: 5%;
-  font-size: 2em;
+  margin-top: 1.5em;
+  margin-left: 15%;
+  text-align: center;
+  width: 45%;
 }
 
 .writing {
-  width: 100%;
+  min-width: 100%;
+  background-image: url('pics/outdoor.jpeg');
+  background-size: cover;
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.writing-links {
+  padding: 20% 10% 15% 10%;
+  text-align: justify;
+  position: relative;
+  float: center;
+  width: 40%;
+  margin-left: 40%; 
+  font-size: 1.25em;
 }
 
 .writing-pic {
@@ -110,7 +131,18 @@ body {
   width: 100%;
 }
 
+.writing-sample {
+  margin-bottom: 1em;
+}
+
+.writing-sample a {
+  text-decoration: none;
+  color: black;
+}
+
 .philosophy {
+  padding-top: 1em;
+  margin-top: 0;
   background-color: #C9EAFF;
   width: 100%;
   height: auto;
@@ -151,4 +183,12 @@ body {
   background-color: #BCC2FF;
   width: 100%;
   padding: .5em;
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1em;
 }
