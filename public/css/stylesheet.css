@@ -1,0 +1,262 @@
+body {
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+  z-index: 1;
+  background-color: #BCC2FF;
+  text-align: center;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.name {
+  display: inline-block;
+  margin: .1em;
+  margin-left: 8.5%;
+}
+
+.header-link {
+  padding: .2em;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.navigation-links {
+  display: none;
+  float: right;
+  position: absolute;
+  top: 2.5em;
+  right: 0;
+  background-color: #BCC2FF;
+  width: 15%;
+}
+
+.link-button {
+  float: right;
+  margin-top: .5em;
+  margin-right: 5%;
+  margin-bottom: .4em;
+  background-color: #A1BBCC;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid grey;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.bio {
+  background-image: url('pics/family.jpeg');
+  background-size: cover;
+  height: auto;
+}
+
+.bio-title {
+  margin-top: 1em;
+  padding-top: 1em;
+  position: relative;
+  float: center;
+  color: #C9EAFF;
+}
+
+.bio-pic {
+  position: relative;
+  opacity: .5;
+  width: 100%;
+}
+
+.bio-blurb {
+  padding: 30% 10% 15% 10%;
+  text-align: justify;
+  position: relative;
+  float: center;
+  font-size: 1.5em;
+  color: #C9EAFF;
+}
+
+.cv {
+  background-color: #C9EAFF;
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+}
+
+.cv-blurb {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  margin-top: 15%;
+  font-size: 1.5em;
+  margin-left: 7.5%;
+  margin-right: 2.5%;
+  text-align: justify;
+}
+
+.cv-pic {
+  display: inline-block;
+  width: 40%;
+  margin: 4% 4% 4% 4%;
+}
+
+.cv-link {
+  float: left;  
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 3em;
+  margin-left: 15%;
+  text-align: center;
+  width: 45%;
+}
+
+.writing {
+  min-width: 100%;
+  background-image: url('pics/outdoor.jpeg');
+  background-size: cover;
+  height: auto;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.writing-links {
+  padding: 5% 10% 15% 5%;
+  text-align: justify;
+  position: relative;
+  float: center;
+  width: 50%;
+  margin-left: 40%; 
+  font-size: 1.25em;
+}
+
+.writing-pic {
+  position: relative;
+  opacity: .5;
+  width: 100%;
+}
+
+.writing-blurb {
+  text-align: justify;
+  font-size: 1.25em;
+  margin-bottom: 3em;
+  margin-left: -10%;
+  width: 90%;
+}
+
+.writing-sample {
+  margin-bottom: 1em;
+  width: 80%;
+}
+
+.writing-sample a {
+  text-decoration: none;
+  color: black;
+}
+
+.philosophy {
+  padding-top: 1em;
+  margin-top: 0;
+  background-color: #C9EAFF;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.philosophy-pic {
+  display: inline-block;
+  width: 32%;
+  margin: 2%;
+}
+
+.philosophy-links {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  margin-right: 25%;
+  margin-top: 3em; 
+}
+
+.philosophy-links a {
+  text-decoration: none;
+}
+
+.philosophy-blurb {
+  display: inline-block;
+  float: right;
+  width: 55%;
+  margin-top: 7%;
+  font-size: 1.5em;
+  margin-right: 5%;
+}
+
+.footer {
+  position: relative;
+  margin-top: 0;
+  bottom: 0;
+  background-color: #BCC2FF;
+  width: 100%;
+  padding: .5em;
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+.shadow {
+  background-color: black;
+  opacity: .8;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0; 
+  right:0;
+  bottom:0; 
+  left:0;
+}
+
+.inline-pdf {
+  position: relative;
+  z-index: 200;
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top:0; 
+  right:0;
+  bottom:0; 
+  left:0;
+}
+
+.close {
+  position: relative;
+  z-index: 200;
+  position: absolute;
+  top:0; 
+  right:0;
+}
+
+.iframe {
+  position: relative;
+  z-index: 200;
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top:0; 
+  right:0;
+  bottom:0; 
+  left:0;
+  margin: auto;
+  overflow-y: auto; 
+  overflow-x: hidden;
+}
