@@ -22,21 +22,27 @@ body {
 }
 
 .header-link {
+  padding: .2em;
   text-decoration: none;
   display: block;
-  float: left;
-  width: 25%;
+  width: 100%;
 }
 
 .navigation-links {
   display: none;
   float: right;
+  position: absolute;
+  top: 2.5em;
+  right: 0;
+  background-color: #BCC2FF;
+  width: 15%;
 }
 
 .link-button {
   float: right;
   margin-top: .5em;
   margin-right: 5%;
+  margin-bottom: .4em;
   background-color: #A1BBCC;
   border-radius: 5px;
   border-style: none;

@@ -2,13 +2,12 @@ $(document).ready(bindListeners)
 
 function bindListeners () {
   $('.link-button').on('mouseover', showNavigation)
-  $('.navigation-links').on('mouseout', hideNavigation)
+  $('.navigation-links').on('mouseleave', hideNavigation)
   $('body').on('click', '.pdf', appendPdf)
   $('body').on('click', '.close', cancel)
 }
 
 function showNavigation () {
-  // $('.navigation-links').css('display', 'block')
   $('.navbar').append($('.navigation-links').css('display', 'block'))
 }
 
