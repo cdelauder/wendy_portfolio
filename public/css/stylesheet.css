@@ -9,7 +9,7 @@ body {
   width: 100%;
   opacity: 1;
   z-index: 1;
-  background-color: #BCC2FF;
+  background-color: rgba(27,62,111,1);
   text-align: center;
   height: auto;
   margin-bottom: 0;
@@ -19,6 +19,7 @@ body {
   display: inline-block;
   margin: .1em;
   margin-left: 8.5%;
+  color: #C9EAFF;
 }
 
 .header-link {
@@ -26,6 +27,7 @@ body {
   text-decoration: none;
   display: block;
   width: 100%;
+  color: #C9EAFF;
 }
 
 .navigation-links {
@@ -34,8 +36,9 @@ body {
   position: absolute;
   top: 2.5em;
   right: 0;
-  background-color: #BCC2FF;
+  background-color: rgba(27,62,111,1);
   width: 15%;
+  color: #C9EAFF;
 }
 
 .link-button {
@@ -43,10 +46,11 @@ body {
   margin-top: .5em;
   margin-right: 5%;
   margin-bottom: .4em;
-  background-color: #A1BBCC;
+  background-color: #496286;
   border-radius: 5px;
   border-style: none;
-  border: 1px solid grey;
+  border: 1px solid white;
+  color: #C9EAFF;
 }
 
 .section-title {
@@ -64,7 +68,7 @@ body {
   padding-top: 1em;
   position: relative;
   float: center;
-  color: #C9EAFF;
+  color: rgba(31, 135, 224, 1);
 }
 
 .bio-pic {
@@ -79,11 +83,11 @@ body {
   position: relative;
   float: center;
   font-size: 1.5em;
-  color: #C9EAFF;
+  color: rgba(31, 135, 224, 1);
 }
 
 .cv {
-  background-color: #C9EAFF;
+  background-color: rgba(31, 135, 224, .75);
   width: 100%;
   height: auto;
   padding-top: 1em;
