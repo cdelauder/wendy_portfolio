@@ -68,7 +68,7 @@ body {
   padding-top: 1em;
   position: relative;
   float: center;
-  color: rgba(31, 135, 224, 1);
+  color: #1A6386;
 }
 
 .bio-pic {
@@ -83,25 +83,35 @@ body {
   position: relative;
   float: center;
   font-size: 1.5em;
-  color: rgba(31, 135, 224, 1);
+  color: #1A6386;
 }
 
 .cv {
-  background-color: rgba(31, 135, 224, .75);
+  background-color: #1A6386;
   width: 100%;
   height: auto;
   padding-top: 1em;
 }
 
 .cv-blurb {
+  
+  margin-bottom: 3em;
+  text-align: justify;
+  color: white;
+}
+
+.cv-text {
   display: inline-block;
   float: left;
   width: 40%;
-  margin-top: 15%;
+  margin-top: 12.5%;
   font-size: 1.5em;
   margin-left: 7.5%;
   margin-right: 2.5%;
-  text-align: justify;
+}
+
+.cv .section-title{
+  color: white;
 }
 
 .cv-pic {
@@ -114,10 +124,14 @@ body {
   float: left;  
   display: inline-block;
   text-decoration: none;
-  margin-top: 3em;
-  margin-left: 15%;
   text-align: center;
-  width: 45%;
+  width: 100%;
+  color: #C9EAFF;
+  font-size: 2em;
+}
+
+.cv a {
+  font-size: 1.25em;
 }
 
 .writing {
@@ -157,11 +171,18 @@ body {
 .writing-sample {
   margin-bottom: 1em;
   width: 80%;
+  list-style: none; 
+}
+
+.writing-sample:before {
+  font-family: 'FontAwesome';
+  content: '\f15c';
+  color: white;
 }
 
 .writing-sample a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .philosophy {
@@ -185,10 +206,12 @@ body {
   width: 50%;
   margin-right: 25%;
   margin-top: 3em; 
+  color: rgba(27,62,111,1);
 }
 
 .philosophy-links a {
   text-decoration: none;
+  color: rgba(27,62,111,1);
 }
 
 .philosophy-blurb {
@@ -252,12 +275,11 @@ body {
 }
 
 .iframe {
-  position: relative;
   z-index: 200;
   position: absolute;
   width: 95%;
   height: 95%;
-  top:0; 
+  top:20; 
   right:0;
   bottom:0; 
   left:0;
