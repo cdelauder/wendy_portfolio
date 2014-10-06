@@ -68,7 +68,7 @@ body {
   padding-top: 1em;
   position: relative;
   float: center;
-  color: #1A6386;
+  color: white;
 }
 
 .bio-pic {
@@ -83,7 +83,8 @@ body {
   position: relative;
   float: center;
   font-size: 1.5em;
-  color: #1A6386;
+  color: rgba(26,99,134,.8);
+  font-style: bold; 
 }
 
 .cv {
@@ -231,6 +232,7 @@ body {
   width: 100%;
   padding: .5em;
   text-align: center;
+  font-size: 1.25em;
 }
 
 .contact {
