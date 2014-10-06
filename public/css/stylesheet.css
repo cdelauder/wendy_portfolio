@@ -61,6 +61,7 @@ body {
   background-image: url('pics/family.jpeg');
   background-size: cover;
   height: auto;
+  padding-bottom: 16%;
 }
 
 .bio-title {
@@ -68,7 +69,7 @@ body {
   padding-top: 1em;
   position: relative;
   float: center;
-  color: white;
+  color: #C9EAFF;
 }
 
 .bio-pic {
@@ -78,13 +79,16 @@ body {
 }
 
 .bio-blurb {
-  padding: 30% 10% 15% 10%;
+  margin: 30% 10% 0% 10%;
+  padding: 1%;
   text-align: justify;
   position: relative;
   float: center;
   font-size: 1.5em;
-  color: rgba(26,99,134,.8);
+  color: rgba(27,62,111,1);
   font-style: bold; 
+  background-color: rgba(255,255,255,.4);
+  border-radius: 10px;
 }
 
 .cv {
