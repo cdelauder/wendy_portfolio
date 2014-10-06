@@ -9,7 +9,7 @@ body {
   width: 100%;
   opacity: 1;
   z-index: 1;
-  background-color: #BCC2FF;
+  background-color: rgba(27,62,111,1);
   text-align: center;
   height: auto;
   margin-bottom: 0;
@@ -19,6 +19,7 @@ body {
   display: inline-block;
   margin: .1em;
   margin-left: 8.5%;
+  color: #C9EAFF;
 }
 
 .header-link {
@@ -26,6 +27,7 @@ body {
   text-decoration: none;
   display: block;
   width: 100%;
+  color: #C9EAFF;
 }
 
 .navigation-links {
@@ -34,8 +36,9 @@ body {
   position: absolute;
   top: 2.5em;
   right: 0;
-  background-color: #BCC2FF;
+  background-color: rgba(27,62,111,1);
   width: 15%;
+  color: #C9EAFF;
 }
 
 .link-button {
@@ -43,10 +46,11 @@ body {
   margin-top: .5em;
   margin-right: 5%;
   margin-bottom: .4em;
-  background-color: #A1BBCC;
+  background-color: #496286;
   border-radius: 5px;
   border-style: none;
-  border: 1px solid grey;
+  border: 1px solid white;
+  color: #C9EAFF;
 }
 
 .section-title {
@@ -57,6 +61,7 @@ body {
   background-image: url('pics/family.jpeg');
   background-size: cover;
   height: auto;
+  padding-bottom: 16%;
 }
 
 .bio-title {
@@ -74,30 +79,44 @@ body {
 }
 
 .bio-blurb {
-  padding: 30% 10% 15% 10%;
+  margin: 30% 10% 0% 10%;
+  padding: 1%;
   text-align: justify;
   position: relative;
   float: center;
   font-size: 1.5em;
-  color: #C9EAFF;
+  color: rgba(27,62,111,1);
+  font-style: bold; 
+  background-color: rgba(255,255,255,.4);
+  border-radius: 10px;
 }
 
 .cv {
-  background-color: #C9EAFF;
+  background-color: #1A6386;
   width: 100%;
   height: auto;
   padding-top: 1em;
 }
 
 .cv-blurb {
+  
+  margin-bottom: 3em;
+  text-align: justify;
+  color: white;
+}
+
+.cv-text {
   display: inline-block;
   float: left;
   width: 40%;
-  margin-top: 15%;
+  margin-top: 12.5%;
   font-size: 1.5em;
   margin-left: 7.5%;
   margin-right: 2.5%;
-  text-align: justify;
+}
+
+.cv .section-title{
+  color: white;
 }
 
 .cv-pic {
@@ -110,10 +129,14 @@ body {
   float: left;  
   display: inline-block;
   text-decoration: none;
-  margin-top: 3em;
-  margin-left: 15%;
   text-align: center;
-  width: 45%;
+  width: 100%;
+  color: #C9EAFF;
+  font-size: 2em;
+}
+
+.cv a {
+  font-size: 1.25em;
 }
 
 .writing {
@@ -153,11 +176,18 @@ body {
 .writing-sample {
   margin-bottom: 1em;
   width: 80%;
+  list-style: none; 
+}
+
+.writing-sample:before {
+  font-family: 'FontAwesome';
+  content: '\f15c';
+  color: white;
 }
 
 .writing-sample a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .philosophy {
@@ -181,10 +211,12 @@ body {
   width: 50%;
   margin-right: 25%;
   margin-top: 3em; 
+  color: rgba(27,62,111,1);
 }
 
 .philosophy-links a {
   text-decoration: none;
+  color: rgba(27,62,111,1);
 }
 
 .philosophy-blurb {
@@ -200,10 +232,11 @@ body {
   position: relative;
   margin-top: 0;
   bottom: 0;
-  background-color: #BCC2FF;
+  background-color: rgba(27,62,111,1);
   width: 100%;
   padding: .5em;
   text-align: center;
+  font-size: 1.25em;
 }
 
 .contact {
@@ -211,6 +244,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   margin-left: 1em;
+  color: #C9EAFF;
 }
 
 .shadow {
@@ -247,12 +281,11 @@ body {
 }
 
 .iframe {
-  position: relative;
   z-index: 200;
   position: absolute;
   width: 95%;
   height: 95%;
-  top:0; 
+  top:20; 
   right:0;
   bottom:0; 
   left:0;
