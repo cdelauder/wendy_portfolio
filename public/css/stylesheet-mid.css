@@ -113,7 +113,7 @@ body {
   display: inline-block;
   float: left;
   width: 40%;
-  margin-top: 12.5%;
+  margin-top: 2.5%;
   font-size: 1.5em;
   margin-left: 7.5%;
   margin-right: 2.5%;
@@ -174,7 +174,6 @@ body {
   text-align: justify;
   font-size: 1.25em;
   margin-bottom: 3em;
-  margin-left: -10%;
   width: 90%;
 }
 
@@ -182,6 +181,7 @@ body {
   margin-bottom: 1em;
   width: 80%;
   list-style: none; 
+  margin-left: 15%;
 }
 
 .writing-sample:before {
@@ -214,9 +214,9 @@ body {
 .philosophy-links {
   display: inline-block;
   float: right;
-  width: 50%;
-  margin-right: 25%;
-  margin-top: 3em; 
+  width: 100%;
+  margin-left: 25%;
+  margin-top: 1em; 
   color: rgba(27,62,111,1);
 }
 
