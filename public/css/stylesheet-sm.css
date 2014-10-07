@@ -3,6 +3,10 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
+ul {
+  padding: 0;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -15,6 +19,10 @@ body {
   margin-bottom: 0;
 }
 
+.header h1 {
+  font-size: 1.25em;
+}
+
 .name {
   display: inline-block;
   margin: .1em;
@@ -24,6 +32,7 @@ body {
 
 .header-link {
   padding: .2em;
+  margin-top: .1em;
   text-decoration: none;
   display: block;
   width: 100%;
@@ -102,7 +111,6 @@ body {
 }
 
 .cv-blurb {
-  
   margin-bottom: 3em;
   text-align: justify;
   color: white;
@@ -110,13 +118,11 @@ body {
 
 .cv-text {
   clear: both;
-  display: inline-block;
-  float: left;
-  width: 40%;
+  display: block;
+  position: relative;
+  min-width: 85%;
   margin-top: 2.5%;
   font-size: 1.5em;
-  margin-left: 7.5%;
-  margin-right: 2.5%;
 }
 
 .cv .section-title{
@@ -124,8 +130,9 @@ body {
 }
 
 .cv-pic {
-  display: inline-block;
-  width: 40%;
+  position: relative;
+  display: block;
+  min-width: 90%;
   margin: 4% 4% 4% 4%;
 }
 
@@ -154,28 +161,35 @@ body {
   padding-top: 1em;
 }
 
+.writing .section-title {
+  margin-bottom: 0;
+}
+
 .writing-links {
-  padding: 5% 10% 15% 5%;
+  overflow: auto;
+  padding: 0 !important; 
   text-align: justify;
   position: relative;
-  float: center;
-  width: 50%;
-  margin-left: 40%; 
-  font-size: 1.25em;
+  display: block;
+  min-width: 100%; 
+  margin: 0 !important;
+  float: none;
+  font-size: 1em !important;
 }
 
 .writing-blurb {
   text-align: justify;
   font-size: 1.25em;
   margin-bottom: 3em;
-  width: 90%;
+  max-width: 60%;
+  margin-left: 35%
 }
 
 .writing-sample {
+  float: left;
   margin-bottom: 1em;
-  width: 80%;
+  max-width: 80%;
   list-style: none; 
-  margin-left: 15%;
 }
 
 .writing-sample:before {
@@ -185,6 +199,8 @@ body {
 }
 
 .writing-sample a {
+  margin-left: 0;
+  margin-right: 5%;
   text-decoration: none;
   color: white;
 }
@@ -200,18 +216,20 @@ body {
 }
 
 .philosophy-pic {
-  display: inline-block;
-  width: 32%;
-  margin: 2%;
+  display: block;
+  position: relative;
+  min-width: 90%;
+  margin: 5% !important;
 }
 
 .philosophy-links {
-  display: inline-block;
-  float: right;
-  width: 100%;
-  margin-left: 25%;
+  display: block;
+  position::relative;
+  min-width: 100%;
   margin-top: 1em; 
+  margin-bottom: 1em;
   color: rgba(27,62,111,1);
+  text-align: center;
 }
 
 .philosophy-links a {
@@ -220,9 +238,9 @@ body {
 }
 
 .philosophy-blurb {
-  display: inline-block;
-  float: right;
-  width: 55%;
+  display: block;
+  position: relative;
+  min-width: 90%;
   margin-top: 7%;
   font-size: 1.5em;
   margin-right: 5%;
@@ -231,7 +249,7 @@ body {
 
 .footer {
   position: relative;
-  margin-top: 0;
+  margin-top: 1em;
   bottom: 0;
   background-color: rgba(27,62,111,1);
   width: 100%;

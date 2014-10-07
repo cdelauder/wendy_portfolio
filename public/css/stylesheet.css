@@ -154,6 +154,7 @@ body {
   padding-top: 1em;
 }
 
+
 .writing-links {
   padding: 5% 10% 15% 5%;
   text-align: justify;
@@ -162,12 +163,6 @@ body {
   width: 50%;
   margin-left: 40%; 
   font-size: 1.25em;
-}
-
-.writing-pic {
-  position: relative;
-  opacity: .5;
-  width: 100%;
 }
 
 .writing-blurb {
